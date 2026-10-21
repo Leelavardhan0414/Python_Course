@@ -1,0 +1,12 @@
+from array import *
+a = array('u',('H','e','l','l','o'))
+print(a)
+print(type(a))
+arr = array('f',[1.2,1.3,1.4])
+print(arr)
+print(type(arr))
+str = input("Enter a string: ")
+print(str)
+print(str.split())
+print(str.split(' ',2))
+print(type(str))
